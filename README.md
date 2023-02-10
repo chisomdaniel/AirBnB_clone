@@ -28,6 +28,5 @@ It prints a prompt **(hbnb)** and waits for the user for input.
 - methods: save() and to_json()
 models/engine directory will contain all storage classes (using the same prototype). For the moment you will have only one: file_storage.py.
 
-![image](https://user-images.githubusercontent.com/105078661/218213805-53f0dae4-b885-434e-827f-f29eff35079f.png)
 
 ![image](https://user-images.githubusercontent.com/105078661/218213826-b3d4f79b-1d80-42fa-97a6-ac185264f383.png)
