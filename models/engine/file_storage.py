@@ -4,7 +4,7 @@ serializes instances to JSON fileand deserializes
 JSON file to instances
 '''
 import json
-from models import BaseModel
+from models.base_model import BaseModel
 
 
 class FileStorage:
