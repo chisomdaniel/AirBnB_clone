@@ -26,7 +26,7 @@ class BaseModel():
 
     def __init__(self, *args, **kwargs):
         '''The init method for the class'''
-        
+
         if len(kwargs) > 3:
             self.id = kwargs['id']
             self.created_at = datetime.fromisoformat(kwargs['created_at'])
@@ -52,7 +52,7 @@ class BaseModel():
 
     def to_dict(self):
         '''Creates a dictionary of all the attributes in the object
-        
+
         Returns the dictionary
         '''
         my_dict = {}

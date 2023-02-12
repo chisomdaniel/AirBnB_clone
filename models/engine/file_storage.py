@@ -25,7 +25,7 @@ class FileStorage:
 
     def new(self, obj):
         '''sets in `__objects` the `obj` with <obj class name>.id
-        
+
         Args:
         obj (obj of a valid class): an object of one of our classes
         '''
